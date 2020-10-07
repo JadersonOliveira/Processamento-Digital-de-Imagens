@@ -39,9 +39,9 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
    - **6.1 Exercício 1**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshift.cpp. Três ajustes deverão ser providos na tela da interface:</br>
       <div>
-         <p>- um ajuste para regular a altura da região central que entrará em foco;</p></br>
-         <p>- um ajuste para regular a força de decaimento da região borrada;</p></br>
-         <p>- um ajuste para regular a posição vertical do centro da região que entrará em foco. Finalizado o programa, a imagem produzida deverá ser salva em arquivo.</p></br>
+         <p>   - um ajuste para regular a altura da região central que entrará em foco;</p></br>
+         <p>   - um ajuste para regular a força de decaimento da região borrada;</p></br>
+         <p>   - um ajuste para regular a posição vertical do centro da região que entrará em foco. Finalizado o programa, a imagem produzida deverá ser salva em arquivo.</p></br>
       </div>
       </i></p>
    - **6.1 Exercício 2**
