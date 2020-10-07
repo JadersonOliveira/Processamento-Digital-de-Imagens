@@ -8,7 +8,7 @@ O intuito deste repositório é manter e expor as resoluções dos exercícios p
 * OpenCV
 
 ## Exercícios
-Aqui será exposto apenas o resultado, o <span style="color: green">algoritmo</span> se encontra na sua própria pasta aqui do repositório. 
+```diff + Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria pasta aqui do repositório. ```
 
 2. Manipulando pixels em uma imagem
    - 2.2 Exercício 1 
