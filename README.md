@@ -36,13 +36,13 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p align="justify"><i>Utilizando o programa exemplos/filtroespacial.cpp como referência, implemente um programa laplgauss.cpp. O programa deverá acrescentar mais uma funcionalidade ao exemplo fornecido, permitindo que seja calculado o laplaciano do gaussiano das imagens capturadas. Compare o resultado desse filtro com a simples aplicação do filtro laplaciano.</i></p>
       
 **6. Filtragem no domínio espacial II**
-   - **5.1 Exercício 1**
-      <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshift.cpp. Três ajustes deverão ser providos na tela da interface:
-      - um ajuste para regular a altura da região central que entrará em foco;
-      - um ajuste para regular a força de decaimento da região borrada;
-      - um ajuste para regular a posição vertical do centro da região que entrará em foco. Finalizado o programa, a imagem produzida deverá ser salva em arquivo.
+   - **6.1 Exercício 1**
+      <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshift.cpp. Três ajustes deverão ser providos na tela da interface:</br>
+      - um ajuste para regular a altura da região central que entrará em foco;</br>
+      - um ajuste para regular a força de decaimento da região borrada;</br>
+      - um ajuste para regular a posição vertical do centro da região que entrará em foco. Finalizado o programa, a imagem produzida deverá ser salva em arquivo.</br>
       </i></p>
-   - **5.1 Exercício 2**
+   - **6.1 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshiftvideo.cpp. Tal programa deverá ser capaz de processar um arquivo de vídeo, produzir o efeito de tilt-shift nos quadros presentes e escrever o resultado em outro arquivo de vídeo. A ideia é criar um efeito de miniaturização de cenas. Descarte quadros em uma taxa que julgar conveniente para evidenciar o efeito de stop motion, comum em vídeos desse tipo.</i></p>
 
 ## Bibliografia 
