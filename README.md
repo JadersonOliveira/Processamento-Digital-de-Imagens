@@ -38,11 +38,11 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 **6. Filtragem no domínio espacial II**
    - **6.1 Exercício 1**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshift.cpp. Três ajustes deverão ser providos na tela da interface:</br>
-      <ul>
-         <li>um ajuste para regular a altura da região central que entrará em foco;</li>
-         <li>um ajuste para regular a força de decaimento da região borrada;</li>
-         <li>um ajuste para regular a posição vertical do centro da região que entrará em foco. Finalizado o programa, a imagem produzida deverá ser salva em arquivo.</li>
-      </ul>
+         <ul>
+            <li>um ajuste para regular a altura da região central que entrará em foco;</li>
+            <li>um ajuste para regular a força de decaimento da região borrada;</li>
+            <li>um ajuste para regular a posição vertical do centro da região que entrará em foco. Finalizado o programa, a imagem produzida deverá ser salva em arquivo.</li>
+         </ul>
       </i></p>
       
    - **6.1 Exercício 2**
