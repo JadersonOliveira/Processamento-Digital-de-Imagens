@@ -812,7 +812,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
          <img alt="laplaciano" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/laplaciano.png">
          <img alt="laplaciano_gaussiano" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/laplaciano_gaussiano.png">
         <br>
-          <em>Figura original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura laplaciano&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura laplaciano gaussiano</em>
+          <em>Figura original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura laplaciano&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura laplaciano gaussiano</em>
       </p>
       
       **OBS:** De uma imagem para outra pode haver alguma diferença devido a movimentação na hora de fazer a captura da imagem.
