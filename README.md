@@ -80,7 +80,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
          <img alt="Biel" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png">
          <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Sa%C3%ADda.png">
         <br>
-          <em>caption&emsp;teste&emsp;teste</em>
+          <em>caption&emsp;&emsp;&emsp;&emsp;teste&emsp;&emsp;&emsp;&emsp;teste</em>
    </p>
    
    - **2.2 Exercício 2**
