@@ -76,6 +76,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 
       ```
       ![Figura 4](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png?raw=true "Figura 4")
+      Figura entrada. biel.png
    
    - **2.2 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/pixels.cpp como referência, implemente um programa trocaregioes.cpp. Seu programa deverá trocar os quadrantes em diagonal na imagem. Explore o uso da classe Mat e seus construtores para criar as regiões que serão trocadas. O efeito é ilustrado na Figura 5.</i></p>
