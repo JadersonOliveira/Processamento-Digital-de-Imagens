@@ -76,7 +76,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 
       ```
      <p align="center">
-        <img alt="img-name" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png" width="300">
+        <img alt="img-name" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png">
         <br>
           <em>caption</em>
       </p>
