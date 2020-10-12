@@ -151,7 +151,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
        <p align="center">
          <img alt="Figura 5" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%202/Figura5.png">
          <img alt="Biel" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%202/biel.png">
-         <img alt="Saídaa" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%202/Saida.png">
+         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%202/Saida.png">
         <br>
           <em>Exemplo de saída (Figura 5)&emsp;&emsp;&emsp;&emsp;Figura de entrada (Biel.png)&emsp;&emsp;&emsp;&emsp;Figura de saída (Saída.png)</em>
       </p>
