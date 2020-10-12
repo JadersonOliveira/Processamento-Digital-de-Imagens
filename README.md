@@ -487,8 +487,9 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
         <br>
           <em>&emsp;&emsp;Resultado de ambiente com pouca iluminação</em>
       </p>
-      **OBS:** O resultado não saiu tão bom talvez devido a qualidade da câmera do notebook e também o ângulo de iluminação da do ambiente, mas se
-      compara o canto superior direito das saídas das imagens, dá pra notar bem a diferença de uma equalização com muita e pouca iluminação.
+      
+      **OBS:** O resultado não saiu tão bom talvez devido a qualidade da câmera do notebook e também o ângulo de iluminação do ambiente, mas se
+      comparar o canto superior direito das saídas das imagens, dá pra notar bem a diferença de uma equalização com muita e pouca iluminação.
       
    - **4.2 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/histogram.cpp como referência, implemente um programa motiondetector.cpp. Este deverá continuamente calcular o histograma da imagem (apenas uma componente de cor é suficiente) e compará-lo com o último histograma calculado. Quando a diferença entre estes ultrapassar um limiar pré-estabelecido, ative um alarme. Utilize uma função de comparação que julgar conveniente.</i></p>
