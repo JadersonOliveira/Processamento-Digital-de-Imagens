@@ -159,6 +159,14 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
    - **3.2 Exercício 1**
       <p align="justify"><i>Observando-se o programa labeling.cpp como exemplo, é possível verificar que caso existam mais de 255 objetos na cena, o processo de rotulação poderá ficar comprometido. Identifique a situação em que isso ocorre e proponha uma solução para este problema.</i></p>
       
+      ***[Solução](#)***
+      ```txt
+         Como a regiao à qual o pixel pertence será rotulada com tom de cinza igual ao número de contagem de objetos atual,
+      poderá haver casos em que o número de regioes ou objetos será maior que 256, entao o tom de cinza nao poderá estar 
+      relacionado ao numero de contagem de objetos, logo uma solucao para isso poderia ser dar um tom de  cinza para aquele
+      objetos que compartilham as mesmas caracteristicas.
+      ```
+      
    - **3.2 Exercício 2**
       <p align="justify"><i>Aprimore o algoritmo de contagem apresentado para identificar regiões com ou sem buracos internos que existam na cena. Assuma que objetos com mais de um buraco podem existir. Inclua suporte no seu algoritmo para não contar bolhas que tocam as bordas da imagem. Não se pode presumir, a priori, que elas tenham buracos ou não.</i></p>
       
