@@ -76,6 +76,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 
       ```
       
+      ![Alt text](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png?raw=true "Title")
       ![figura 4](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png)
    
    - **2.2 Exercício 2**
