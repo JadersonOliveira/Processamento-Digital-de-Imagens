@@ -333,6 +333,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 **4. Manipulação de histogramas** 
    - **4.2 Exercício 1**
       <p align="justify"><i>Utilizando o programa exemplos/histogram.cpp como referência, implemente um programa equalize.cpp. Este deverá, para cada imagem capturada, realizar a equalização do histogram antes de exibir a imagem. Teste sua implementação apontando a câmera para ambientes com iluminações variadas e observando o efeito gerado. Assuma que as imagens processadas serão em tons de cinza.</i></p>
+      
       ***[Solução](#)***
       ```cpp
       #include <iostream>
