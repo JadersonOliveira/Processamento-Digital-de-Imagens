@@ -80,7 +80,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
          <img alt="Biel" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png">
          <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Sa%C3%ADda.png">
         <br>
-          <em>Exemplo de saída (Figura 4)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura de entrada (Biel.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura de saída (Saída.png)</em>
+          <em>Exemplo de saída (Figura 4)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura de entrada (Biel.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura de saída (Saída.png)</em>
    </p>
    
    - **2.2 Exercício 2**
