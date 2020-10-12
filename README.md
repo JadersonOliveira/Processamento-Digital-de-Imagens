@@ -75,14 +75,9 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       }
 
       ```
-      ![Figura 4](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png?raw=true "Figura4.png")
-      ![Biel](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png?raw=true "Biel.png")
-      ![Saída](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Sa%C3%ADda.png?raw=true "Saída.png")
-    |:--:|
-      *Exemplo de saída (Figura 4)* *Figura de entrada (Biel.png)* *Figura de saída (Saída.png)*
+      | <img src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png" alt="" style="width: 400px;"/> |
+      | My Caption |
       
-      
-
    - **2.2 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/pixels.cpp como referência, implemente um programa trocaregioes.cpp. Seu programa deverá trocar os quadrantes em diagonal na imagem. Explore o uso da classe Mat e seus construtores para criar as regiões que serão trocadas. O efeito é ilustrado na Figura 5.</i></p>
 
