@@ -14,10 +14,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
    - **2.2 Exercício 1** 
       <p align="justify"><i>Utilizando o programa exemplos/pixels.cpp como referência, implemente um programa regions.cpp. Esse programa deverá solicitar ao usuário as coordenadas de dois pontos P1 e P2 localizados dentro dos limites do tamanho da imagem e exibir que lhe for fornecida. Entretanto, a região definida pelo retângulo de vértices opostos definidos pelos pontos P1 e P2 será exibida com o negativo da imagem na região correspondente. O efeito é ilustrado na Figura 4.</i></p>
             
-      ```
-     Solução
-      ```
-      
+      Use 'git status' para listar todos os arquivos novos
       ```cpp
       #include <iostream>
       #include <opencv2/opencv.hpp>	//Definição da biblioteca para uso das funcionalidades
