@@ -627,7 +627,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
          <img alt="Parado" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/4.2%20Exercicio%202/Parado.png">
          <img alt="Movimentado" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/4.2%20Exercicio%202/Movimentado.png">
         <br>
-          <em>Figura com objeto parado &emsp;&emsp;&emsp; Figura com objeto movimentado</em>
+          <em>Figura com objeto parado&emsp;Figura com objeto movimentado</em>
       </p>
       
 **5. Filtragem no domínio espacial I**
