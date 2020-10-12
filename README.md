@@ -78,7 +78,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       ![Figura 4](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png?raw=true "Figura4.png")
       ![Biel](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png?raw=true "Biel.png")
       ![Saída](https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Sa%C3%ADda.png?raw=true "Saída.png")
-      
+      *image_caption*
       <pre>
          Exemplo de saída (Figura 4)  Figura de entrada (Biel.png)  Figura de saída (Saída.png)
       </pre>
