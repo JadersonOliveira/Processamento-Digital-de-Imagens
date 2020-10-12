@@ -817,6 +817,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       
       **OBS:** De uma imagem para outra pode haver alguma diferença devido a movimentação na hora de fazer a captura da imagem.
                Para ver imagens de outros filtros basta acessar a pasta aqui no repositório deste exercício.
+               
 **6. Filtragem no domínio espacial II**
    - **6.1 Exercício 1**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshift.cpp. Três ajustes deverão ser providos na tela da interface:</br>
