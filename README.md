@@ -808,9 +808,9 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       }
       ```
       <p align="center">
-         <img alt="Original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/Original.png" width="300">
-         <img alt="laplaciano" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/laplaciano.png" width="300">
-         <img alt="laplaciano_gaussiano" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/laplaciano_gaussiano.png" width="300">
+         <img alt="Original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/Original.png" width="250" height="250">
+         <img alt="laplaciano" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/laplaciano.png" width="250" height="250">
+         <img alt="laplaciano_gaussiano" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/5.2%20Exercicio%201/laplaciano_gaussiano.png" width="250" height="250">
         <br>
           <em>Figura original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura laplaciano&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figura laplaciano gaussiano</em>
       </p>
