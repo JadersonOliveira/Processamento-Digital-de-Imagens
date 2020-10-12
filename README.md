@@ -79,12 +79,9 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
         <img alt="img-name" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png">
         <br>
           <em>caption</em>
-         <img alt="img-name" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png" >
-         <br>
-          <em>caption</em>
      </p>
      <p align="left">
-        <img alt="img-name" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png" height="300">
+        <img alt="img-name" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/biel.png" height="-300">
         <br>
           <em>caption</em>
      </p>
