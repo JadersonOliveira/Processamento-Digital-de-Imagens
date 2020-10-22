@@ -39,8 +39,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p align="justify"><i>Utilizando o programa exemplos/pixels.cpp como referência, implemente um programa trocaregioes.cpp. Seu programa deverá trocar os quadrantes em diagonal na imagem. Explore o uso da classe Mat e seus construtores para criar as regiões que serão trocadas. O efeito é ilustrado na Figura 5.</i></p>
 
       ***[Solução](#)***
-      <p>Nesta questão, segui a recomendação de usar a classe Mat, então criei quatro objetos da classe Mat para armazenar imagens mapeadas de uma
-   região retangular (através do construtor rect()) de uma imagem, como pode ser visto a seguir: </p>
+      <p>Nesta questão, segui a recomendação de usar a classe Mat, então criei quatro objetos da classe Mat para armazenar imagens mapeadas de uma região retangular (através do construtor rect()) de uma imagem, como pode ser visto a seguir: </p>
    
       ```cpp
           Mat imagem1(imagem, Rect(0,0, height2, width2));
