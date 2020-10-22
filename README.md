@@ -265,11 +265,11 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p>Fonte da pesquisa: http://www.ic.uff.br/~aconci/gabor.pdf</p>
       
       ```cpp
-         float laplgauss[]={ 0, -1, -2, -1,  0,
-                        -1,  0,  2,  0, -1,
-                        -2,  2,  8,  2, -2,
-                        -1,  0,  2,  0, -1,
-                        0, -1, -2, -1,  0};
+         float laplgauss[]={ 0, 0, -1, 0,  0,
+                             0, -1, -2, -1,  0,
+                            -1,  -2,  16,  -2, -1,
+                             0, -1, -2, -1,  0,
+                             0, 0, -1, -0,  0,};
 
       ```
       <p align="center">
