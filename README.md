@@ -18,14 +18,13 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p>Para solucionar essa questão, basicamente eu recebo as coordenados dos dois pontos e utilizo loops aninhados para varrer as linhas e colunas, gerando uma região onde será aplicado o efeito negativo, o efeito é realizado através do método .at, que modifica os pixeis dessa região especificada. O trecho onde isso ocorre pode ser visto abaixo.</p>
       
       ```cpp
-          for(int i = x1; i < x2; i++)
-          {
-              for(int j = y1; j < y2; j++)
-              { 
-                  image.at<uchar>(i, j) = 255 - image.at<uchar>(i, j);
-              }
+         for(int i = x1; i < x2; i++)
+         {
+            for(int j = y1; j < y2; j++)
+            { 
+               image.at<uchar>(i, j) = 255 - image.at<uchar>(i, j);
+            }
           }
-      }
       ```
       <p align="center">
          <img alt="Figura 4" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/2.2%20Exercicio%201/Figura4.png">
@@ -42,10 +41,10 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p>Nesta questão, segui a recomendação de usar a classe Mat, então criei quatro objetos da classe Mat para armazenar imagens mapeadas de uma região retangular (através do construtor rect()) de uma imagem, como pode ser visto a seguir: </p>
    
       ```cpp
-          Mat imagem1(imagem, Rect(0,0, height2, width2));
-          Mat imagem2(imagem, Rect(width2,0, height2, width2));
-          Mat imagem3(imagem, Rect(0,height2,height2,width2));
-          Mat imagem4(imagem, Rect(height2,width2, height2, width2));
+         Mat imagem1(imagem, Rect(0,0, height2, width2));
+         Mat imagem2(imagem, Rect(width2,0, height2, width2));
+         Mat imagem3(imagem, Rect(0,height2,height2,width2));
+         Mat imagem4(imagem, Rect(height2,width2, height2, width2));
       ```
       
       <p>Após isso fiz o uso do método .copyTo para copiar as imagens mapeadas para a imagem nova e fiz o uso da função imshow() para exibir as imagens.</p>
