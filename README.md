@@ -16,6 +16,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
             
       ***[Solução](#)***
       <p>Para solucionar essa questão, basicamente eu recebo as coordenados dos dois pontos e utilizo loops aninhados para varrer as linhas e colunas, gerando uma região onde será aplicado o efeito negativo, o efeito é realizado através do método .at, que modifica os pixeis dessa região especificada. O trecho onde isso ocorre pode ser visto abaixo.</p>
+      
       ```cpp
           for(int i = x1; i < x2; i++)
           {
