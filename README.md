@@ -79,47 +79,9 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p align="justify"><i>Aprimore o algoritmo de contagem apresentado para identificar regiões com ou sem buracos internos que existam na cena. Assuma que objetos com mais de um buraco podem existir. Inclua suporte no seu algoritmo para não contar bolhas que tocam as bordas da imagem. Não se pode presumir, a priori, que elas tenham buracos ou não.</i></p>
       
       ***[Solução](#)***
+      <p>A estratégia inicial para solucionar este exercícío foi remover os objetos/bolhas que tocam as bordas, então utilizei loops para percorrer a altura e largura verificando se os pixeis têm tom de cinza igual a 255, se sim, aplica o floodfill passando a coordenada desse pixel como referência além de passar o tom de cinza 0 para remover o objeto.</p>
+      
       ```cpp
-      #include <iostream>
-      #include <opencv2/opencv.hpp>
-
-      using namespace cv;
-      using namespace std;
-
-      int main(int argc, char** argv)
-      {
-          Mat image, realce;	//Definição de objetos da classe Mat para armazenamento das imagens
-          int width, height; //Definição das variáveis para armazenar a largura e altura da imagem
-          int nobjects;	//Definição da variável para armazenar o total de bolhas sem buraco
-          int nobjects_ComBuraco; //Definição da variável para armazenar o total de bolhas com buraco
-          int total_objetos;	//Definição da variável para armazenar o total de bolhas 
-          int objcolor;	//Definição de variável para armazenar o número da cor
-
-         /* Criação de um objeto do tipo Point, para indicar a semente de preenchimento
-         que é usada no floodFill() */
-          Point p;
-
-         /* Uso da função imread() para leitura de uma imagem 
-         e o formato que a imagem será interpretada */
-          image = imread("bolhas.png", IMREAD_GRAYSCALE);
-
-         //Caso a imagem não seja aberta, apresente a mensagem de erro
-          if(!image.data)
-          {
-              cout << "imagem nao carregou corretamente\n";
-              return(-1);
-          }
-
-         //Obtenção da largura e altura da imagem
-          width=image.cols;
-          height=image.rows;
-          cout << endl << "Dimensao: ";
-          cout << width << "x" << height << endl;
-
-         //Definição das coordenadas X e Y da nossa semente p
-          p.x=0;
-          p.y=0;
-
          //for() para remoção das bolhas que tocam as bordas verticais 
           for(int i=0; i<height; i++)
           {
@@ -159,13 +121,11 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
                   floodFill(image,p,0);
               }
           }
-
-          //Aplica floodfill no ponto(0,0) e pinta o fundo de tom de cinza 1
-          p.x=0;
-          p.y=0;
-          floodFill(image,p,1);
-
-
+      ```
+      
+      <p>Após isso faço o uso dos loops para percorrer os pixeis da imagem e localizar as bolhas com e sem buracos, quando um objeto é encontrado, ele é contabilizado e aplicado o floodfill naquele pixel. </p>
+      
+      ```cpp
           //Inicializa as variáveis
           nobjects_ComBuraco = 0;
           objcolor = 250;
@@ -219,17 +179,6 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
           cout << "A figura tem " << nobjects << " objetos sem buracos\n";
           cout << "A figura tem " << nobjects_ComBuraco << " objetos com buracos\n";
           cout << "A figura tem " << total_objetos << " objetos\n\n";
-
-         //Definição da função imshow() para exibir a imagem  modificada
-          imshow("image", image);
-
-         //Definição da função imwrite() para criar a imagem  labeling
-          imwrite("labeling.png", image);
-
-         //Função para aguardar o uso de alguma tecla para depois encerrar o programa
-          waitKey();
-
-          return 0;
       }
       ```
       <p align="center">
