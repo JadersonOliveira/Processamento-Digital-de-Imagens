@@ -79,7 +79,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p align="justify"><i>Aprimore o algoritmo de contagem apresentado para identificar regiões com ou sem buracos internos que existam na cena. Assuma que objetos com mais de um buraco podem existir. Inclua suporte no seu algoritmo para não contar bolhas que tocam as bordas da imagem. Não se pode presumir, a priori, que elas tenham buracos ou não.</i></p>
       
       ***[Solução](#)***
-      <p>A estratégia inicial para solucionar este exercícío foi remover os objetos/bolhas que tocam as bordas, então utilizei loops para percorrer a altura e largura verificando se os pixeis têm tom de cinza igual a 255, se sim, aplica o floodfill passando a coordenada desse pixel como referência além de passar o tom de cinza 0 para remover o objeto.</p>
+      <p>A estratégia inicial para solucionar este exercícío foi remover os objetos/bolhas que tocam as bordas, então utilizei loops para percorrer a altura e largura verificando se os pixeis têm tom de cinza igual a 255, se sim, aplica o floodFill passando a coordenada desse pixel como referência além de passar o tom de cinza 0 para remover o objeto.</p>
       
       ```cpp
          //for() para remoção das bolhas que tocam as bordas verticais 
@@ -123,7 +123,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
           }
       ```
       
-      <p>Após isso faço o uso dos loops para percorrer os pixeis da imagem e localizar as bolhas com e sem buracos, quando um objeto é encontrado, ele é contabilizado e aplicado o floodfill naquele pixel. </p>
+      <p>Após isso faço o uso dos loops para percorrer os pixeis da imagem e localizar as bolhas com e sem buracos, quando um objeto é encontrado, ele é contabilizado e aplicado o floodFill naquele pixel. </p>
       
       ```cpp
           //Inicializa as variáveis
@@ -139,7 +139,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
                   if(image.at<uchar>(i,j) == 0)
                   {
                       /* Verifica o pixel anterior ao do buraco para pintar ele com o valor do objcolor.
-                  Isso foi feito apenas por questão estética, para deixar todas as bolhas com o
+                  Isso foi feito apenas por questão estética, para deixar todas as bolhas com o mesmo
                   tom de cinza e ficar melhor de visualizar. */
                       if(image.at<uchar>(i,j-1) == 255)
                       {
