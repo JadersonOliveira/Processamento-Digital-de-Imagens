@@ -224,7 +224,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p align="justify"><i>Utilizando o programa exemplos/histogram.cpp como referência, implemente um programa motiondetector.cpp. Este deverá continuamente calcular o histograma da imagem (apenas uma componente de cor é suficiente) e compará-lo com o último histograma calculado. Quando a diferença entre estes ultrapassar um limiar pré-estabelecido, ative um alarme. Utilize uma função de comparação que julgar conveniente.</i></p>
       
       ***[Solução](#)***
-      <p>Neste problema, eu crirei duas variáveis principais, correlação e tolerância. A correlação é para receber o valor da comparação dos histogramas dos frames, feito através da função compareHist(). Já a variável tolerância é para definir o limiar, caso o valor da correlação ultrapasse esse limiar, é emitida uma mensagem de alerta na tela utilizando a função putText(). O trecho descrito acima pode ser visto logo abaixo. </p>
+      <p>Neste problema, eu criei duas variáveis principais, correlação e tolerância. A correlação é para receber o valor da comparação dos histogramas dos frames, feito através da função compareHist(). Já a variável tolerância é para definir o limiar, caso o valor da correlação ultrapasse esse limiar, é emitida uma mensagem de alerta na tela utilizando a função putText(). O trecho descrito acima pode ser visto logo abaixo. </p>
       
       ```cpp
    
