@@ -336,7 +336,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
          <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg" width="450" height="450">
          <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG" width="450" height="450">
         <br>
-          <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
+          <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
       </p>
       
    - **6.1 Exercício 2**
