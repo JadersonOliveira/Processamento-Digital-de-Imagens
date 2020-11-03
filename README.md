@@ -294,7 +294,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       </i></p>
       
       ***[Solução](#)***
-      <p>Na solução deste exercício, primeiramento foi tentado gerar o efeito de borramento na imagem, seguindo a dica do material de apoio utilizamos o filtro da média, então foi aplicado o filtro 10 vezes na cópia da imagem para gerar essa aparência de borramento.</p>
+      <p>Na solução deste exercício, primeiramente foi tentado gerar o efeito de borramento na imagem, seguindo a dica do material de apoio utilizamos o filtro da média, então foi aplicado o filtro 10 vezes na cópia da imagem para gerar essa aparência de borramento.</p>
       
       ```cpp
          //Máscara da média
@@ -331,8 +331,8 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       <p>Para definição da força do decaimento da região oriunda da imagem original para a região oriunda da  imagem borrada foi utilizado a própria função do exemplo addweighted.cpp.</p>
       
        <p align="center">
-         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg">
-         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG">
+         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg" width="250" height="250">
+         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG" width="250" height="250">
         <br>
           <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
       </p>
