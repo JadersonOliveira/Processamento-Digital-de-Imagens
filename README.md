@@ -70,8 +70,8 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       ***[Solução](#)***
       ```txt
          Como a região à qual o pixel pertence será rotulada com tom de cinza igual ao número de contagem de objetos atual,
-      poderá haver casos em que o número de regiões ou objetos será maior que 256, então o tom de cinza nao poderá estar 
-      relacionado ao número de contagem de objetos, logo uma solução para isso poderia ser dar um tom de  cinza para aqueles
+      poderá haver casos em que o número de regiões ou objetos será maior que 256, então o tom de cinza não poderá estar 
+      relacionado ao número de contagem de objetos, logo uma solução para isso poderia ser dar um mesmo tom de cinza para aqueles
       objetos que compartilham as mesmas características.
       ```
       
