@@ -293,6 +293,50 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
          </ul>
       </i></p>
       
+      ***[Solução](#)***
+      <p>Na solução deste exercício, primeiramento foi tentado gerar o efeito de borramento na imagem, seguindo a dica do material de apoio utilizamos o filtro da média, então foi aplicado o filtro 10 vezes na cópia da imagem para gerar essa aparência de borramento.</p>
+      
+      ```cpp
+         //Máscara da média
+	      float media[] = {1,1,1,
+					 1,1,1,
+					 1,1,1};
+					 
+         image2.convertTo(image2, CV_32FC3);
+         mask1 = Mat(3, 3, CV_32F, media);
+         scaleAdd(mask1, 1/9.0, Mat::zeros(3,3,CV_32F), mask2);
+	
+         for(int i = 0; i < 10; i++){
+            filter2D(image2, image2, image2.depth(), mask2, Point(1,1),0);
+         }
+      ```
+      
+      <p>Como o material fala, esse efeito não altera a região central da imagem modificada para gerar o efeito tiltshift, para resolver isso, foi utilizado a função on_trackbar_height(), para indicar o centro da imagem original e a partir dela definir o centro da região que irá ficar focada.</p>
+      
+      ```cpp
+         void on_trackbar_height(int, void*){
+            image1.copyTo(imageTop);
+
+            int center = center_slider*(height-1)/100;
+            int focusedHeight = top_slider*(height-1)/200;
+
+            Mat tmp = image2(Rect(0, 0, width, limitHeightBound(center-focusedHeight)));
+            tmp.copyTo(imageTop(Rect(0, 0, width, limitHeightBound(center-focusedHeight))));
+            tmp = image2(Rect(0, limitHeightBound(center+focusedHeight), width,limitHeightBound(height-(center+focusedHeight))));
+            tmp.copyTo(imageTop(Rect(0, limitHeightBound(center+focusedHeight), width,limitHeightBound(height-(center+focusedHeight)))));
+            on_trackbar_blend(alfa_slider,0);
+         }
+      ```
+      
+      <p>Para definição da força do decaimento da região oriunda da imagem original para a região oriunda da  imagem borrada foi utilizado a própria função do exemplo addweighted.cpp.</p>
+      
+       <p align="center">
+         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg">
+         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG">
+        <br>
+          <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
+      </p>
+      
    - **6.1 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshiftvideo.cpp. Tal programa deverá ser capaz de processar um arquivo de vídeo, produzir o efeito de tilt-shift nos quadros presentes e escrever o resultado em outro arquivo de vídeo. A ideia é criar um efeito de miniaturização de cenas. Descarte quadros em uma taxa que julgar conveniente para evidenciar o efeito de stop motion, comum em vídeos desse tipo.</i></p>
 
