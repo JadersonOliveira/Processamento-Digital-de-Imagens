@@ -339,7 +339,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
           <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
       </p>
       
-      **OBS:** Para visualizar melhor o resultado abra a imagem de saída em uma nova guia.
+      **OBS:** Para visualizar melhor o resultado abra a imagem "Exemplo de saída" em uma nova guia.
       
    - **6.1 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshiftvideo.cpp. Tal programa deverá ser capaz de processar um arquivo de vídeo, produzir o efeito de tilt-shift nos quadros presentes e escrever o resultado em outro arquivo de vídeo. A ideia é criar um efeito de miniaturização de cenas. Descarte quadros em uma taxa que julgar conveniente para evidenciar o efeito de stop motion, comum em vídeos desse tipo.</i></p>
