@@ -330,9 +330,11 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       
       <p>Para definição da força do decaimento da região oriunda da imagem original para a região oriunda da  imagem borrada foi utilizado a própria função do exemplo addweighted.cpp.</p>
       
+      <p>O resultado do programa pode ser visto abaixo.</p>
+      
        <p align="center">
-         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg" width="250" height="250">
-         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG" width="250" height="250">
+         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg" width="300" height="250">
+         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG" width="300" height="250">
         <br>
           <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
       </p>
