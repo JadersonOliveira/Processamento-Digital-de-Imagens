@@ -361,7 +361,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 
 	```cpp
 	   vector<vector<Point> > contours;
-    	   vector<Vec4i> hierarchy;
+		vector<Vec4i> hierarchy;
 	   findContours( border, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE );
 	   for( size_t i = 0; i< contours.size(); i++ )
 	   {
@@ -377,7 +377,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 		}
     	   }
 	```
-
+	
 ## Bibliografia 
 * https://agostinhobritojr.github.io/tutorial/pdi/#_pref%C3%A1cio
 * Processamento Digital de Imagens by Ogê Marques Filho, Hugo Vieira Neto
