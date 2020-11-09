@@ -360,12 +360,12 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	Para fazer isso que foi proposto, utilizou-se a função findContours() do OpenCV, ela tem a função de encontrar contornos em uma imagem binária, com os contornos encontrados, foi utilizado a função circle() para desenhar circulos nesses contornos. O algoritmo dessa parte mais importante pode ser visto abaixo.</p>
 
 	```cpp
-	   vector<vector<Point> > contours;
+	vector<vector<Point> > contours;
 	vector<Vec4i> hierarchy;
-	   findContours( border, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE );
-	   for( size_t i = 0; i< contours.size(); i++ )
-	   {
-		for( size_t j = 0; j< contours[i].size(); j++ ) 
+	findContours( border, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE );
+	for( size_t i = 0; i< contours.size(); i++ )
+	{
+		for( size_t j = 0; j< contours[i].size(); j++ )
 		{
 			gray = image.at<uchar>(contours[i][j].y, contours[i][j].x);
 			circle(points,
@@ -375,7 +375,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 				-1,
 				CV_AA);
 		}
-    	  }
+	}
 	```
 	
 ## Bibliografia 
