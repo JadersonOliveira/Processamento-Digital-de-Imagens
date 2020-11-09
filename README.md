@@ -359,7 +359,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	<p>Neste exercício foi seguido a sugestão dada de usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada. A idéia como o próprio problema diz é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada.<br><br>
 	Para fazer isso que foi proposto, utilizou-se a função findContours() do OpenCV, ela tem como objetivo encontrar contornos em uma imagem binária, com os contornos encontrados, foi utilizado a função circle() para desenhar circulos nesses contornos.<br><br></p>
 	
-	<p>Fonte da pesquisa da função findContours() : http://www.ic.uff.br/~aconci/gabor.pdf e 	     https://docs.opencv.org/3.4/d3/dc0/group__imgproc__shape.html#ga17ed9f5d79ae97bd4c7cf18403e1689a<br></p>
+	<p>Fonte da pesquisa da função findContours() : https://docs.opencv.org/3.4/df/d0d/tutorial_find_contours.html e 	     https://docs.opencv.org/3.4/d3/dc0/group__imgproc__shape.html#ga17ed9f5d79ae97bd4c7cf18403e1689a<br></p>
 	
 	<p>O algoritmo dessa parte mais importante pode ser visto abaixo.</p>
 
