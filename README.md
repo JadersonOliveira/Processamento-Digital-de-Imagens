@@ -344,6 +344,17 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
    - **6.1 Exercício 2**
       <p align="justify"><i>Utilizando o programa exemplos/addweighted.cpp como referência, implemente um programa tiltshiftvideo.cpp. Tal programa deverá ser capaz de processar um arquivo de vídeo, produzir o efeito de tilt-shift nos quadros presentes e escrever o resultado em outro arquivo de vídeo. A ideia é criar um efeito de miniaturização de cenas. Descarte quadros em uma taxa que julgar conveniente para evidenciar o efeito de stop motion, comum em vídeos desse tipo.</i></p>
 
+**8. Detecção de bordas com o algoritmo de Canny**
+  - **8.3 Exercício 1**
+     <p>Utilizando os programas exemplos/canny.cpp e exemplos/pontilhismo.cpp como referência, implemente um programa cannypoints.cpp. A idéia é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada. A forma como a informação de borda será usada é livre. Entretanto, são apresentadas algumas sugestões de técnicas que poderiam ser utilizadas:<br>
+	 <ul>
+            <li>Desenhar pontos grandes na imagem pontilhista básica;</li>
+            <li>Usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada;</li>
+            <li>Experimente ir aumentando os limiares do algoritmo de Canny e, para cada novo par de limiares, desenhar círculos cada vez menores nas posições encontradas. A Figura 19 foi desenvolvida usando essa técnica.</li>
+         </ul></p>
+	 <p>Escolha uma imagem de seu gosto e aplique a técnica que você desenvolveu.</p>
+	 <p>Descreva no seu relatório detalhes do procedimento usado para criar sua técnica pontilhista.</p>
+
 ## Bibliografia 
 * https://agostinhobritojr.github.io/tutorial/pdi/#_pref%C3%A1cio
 * Processamento Digital de Imagens by Ogê Marques Filho, Hugo Vieira Neto
