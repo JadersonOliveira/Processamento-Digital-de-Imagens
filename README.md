@@ -363,10 +363,8 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	vector<vector<Point> > contours;
     	vector<Vec4i> hierarchy;
 	findContours( border, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE );
-	for( size_t i = 0; i< contours.size(); i++ )
-    	{
-		for( size_t j = 0; j< contours[i].size(); j++ )
-		{
+	for( size_t i = 0; i< contours.size(); i++ ) {
+		for( size_t j = 0; j< contours[i].size(); j++ ) {
 			gray = image.at<uchar>(contours[i][j].y, contours[i][j].x);
 			circle(points,
 				cv::Point(contours[i][j].x, contours[i][j].y),
