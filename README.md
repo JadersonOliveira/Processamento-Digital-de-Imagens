@@ -383,10 +383,10 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	```
 	
 	<p align="center">
-         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg" width="400" height="400">
-         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG" width="400" height="400">
+         <img alt="Saída1" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/8.3%20Exercicio%201/Saida1.PNG" width="400" height="400">
+         <img alt="Saída2" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/8.3%20Exercicio%201/Saida2.PNG" width="400" height="400">
         <br>
-          <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
+          <em>Exemplo 1 de saída&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo 2 de saída</em>
       </p>
 	
 ## Bibliografia 
