@@ -388,6 +388,8 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
         <br>
           <em>Exemplo 1 de saída&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo 2 de saída</em>
       </p>
+      
+      **OBS:** Para visualizar melhor o resultado abra as imagens em novas guias.
 	
 ## Bibliografia 
 * https://agostinhobritojr.github.io/tutorial/pdi/#_pref%C3%A1cio
