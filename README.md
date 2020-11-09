@@ -383,8 +383,8 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	```
 	
 	<p align="center">
-         <img alt="Saída1" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/8.3%20Exercicio%201/Saida1.PNG" width="400" height="400">
-         <img alt="Saída2" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/8.3%20Exercicio%201/Saida2.PNG" width="400" height="400">
+         <img alt="Saída1" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/8.3%20Exercicio%201/Saida1.PNG">
+         <img alt="Saída2" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/8.3%20Exercicio%201/Saida2.PNG">
         <br>
           <em>Exemplo 1 de saída&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo 2 de saída</em>
       </p>
