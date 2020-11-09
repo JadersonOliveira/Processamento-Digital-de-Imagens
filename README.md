@@ -356,7 +356,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	 <p>Descreva no seu relatório detalhes do procedimento usado para criar sua técnica pontilhista.</p>
 	 
 	***[Solução](#)***
-	<p>Neste exercício foi seguido a sugestão dada de usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada. A idéia como o próprio problema diz é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada.<br>
+	<p>Neste exercício foi seguido a sugestão dada de usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada. A idéia como o próprio problema diz é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada.<br><br>
 	Para fazer isso que foi proposto, utilizou-se a função findContours() do OpenCV, ela tem a função de encontrar contornos em uma imagem binária, com os contornos encontrados, foi utilizado a função circle() para desenhar circulos nesses contornos. O algoritmo dessa parte mais importante pode ser visto abaixo.</p>
 
 	```cpp
