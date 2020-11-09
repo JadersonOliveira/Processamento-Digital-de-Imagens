@@ -357,7 +357,11 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	 
 	***[Solução](#)***
 	<p>Neste exercício foi seguido a sugestão dada de usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada. A idéia como o próprio problema diz é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada.<br><br>
-	Para fazer isso que foi proposto, utilizou-se a função findContours() do OpenCV, ela tem a função de encontrar contornos em uma imagem binária, com os contornos encontrados, foi utilizado a função circle() para desenhar circulos nesses contornos. O algoritmo dessa parte mais importante pode ser visto abaixo.</p>
+	Para fazer isso que foi proposto, utilizou-se a função findContours() do OpenCV, ela tem como objetivo encontrar contornos em uma imagem binária, com os contornos encontrados, foi utilizado a função circle() para desenhar circulos nesses contornos.<br><br></p>
+	
+	<p>Fonte da pesquisa da função findContours() : http://www.ic.uff.br/~aconci/gabor.pdf e 	     https://docs.opencv.org/3.4/d3/dc0/group__imgproc__shape.html#ga17ed9f5d79ae97bd4c7cf18403e1689a<br></p>
+	
+	<p>O algoritmo dessa parte mais importante pode ser visto abaixo.</p>
 
 	```cpp
 	vector<vector<Point> > contours;
@@ -377,6 +381,13 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 		}
 	}
 	```
+	
+	<p align="center">
+         <img alt="Imagem original" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/Natal_PontaNegra.jpg" width="400" height="400">
+         <img alt="Saída" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/6.1%20Exercicio%201/saida.PNG" width="400" height="400">
+        <br>
+          <em>Imagem original&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Exemplo de saída</em>
+      </p>
 	
 ## Bibliografia 
 * https://agostinhobritojr.github.io/tutorial/pdi/#_pref%C3%A1cio
