@@ -393,6 +393,7 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 	
 ## Bibliografia 
 * https://agostinhobritojr.github.io/tutorial/pdi/#_pref%C3%A1cio
+* https://agostinhobritojr.github.io/curso/pdi/
 * Processamento Digital de Imagens by Ogê Marques Filho, Hugo Vieira Neto
 * Processamento Digital de Imagens by Rafael C. Gonzalez, Richard E. Woods
 
