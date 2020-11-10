@@ -346,14 +346,14 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
 
 **8. Detecção de bordas com o algoritmo de Canny**
   - **8.3 Exercício 1**
-     <p>Utilizando os programas exemplos/canny.cpp e exemplos/pontilhismo.cpp como referência, implemente um programa cannypoints.cpp. A idéia é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada. A forma como a informação de borda será usada é livre. Entretanto, são apresentadas algumas sugestões de técnicas que poderiam ser utilizadas:<br>
+     <p align="justify"><i>Utilizando os programas exemplos/canny.cpp e exemplos/pontilhismo.cpp como referência, implemente um programa cannypoints.cpp. A idéia é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada. A forma como a informação de borda será usada é livre. Entretanto, são apresentadas algumas sugestões de técnicas que poderiam ser utilizadas:<br>
 	 <ul>
             <li>Desenhar pontos grandes na imagem pontilhista básica;</li>
             <li>Usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada;</li>
             <li>Experimente ir aumentando os limiares do algoritmo de Canny e, para cada novo par de limiares, desenhar círculos cada vez menores nas posições encontradas. A Figura 19 foi desenvolvida usando essa técnica.</li>
-         </ul></p>
-	 <p>Escolha uma imagem de seu gosto e aplique a técnica que você desenvolveu.</p>
-	 <p>Descreva no seu relatório detalhes do procedimento usado para criar sua técnica pontilhista.</p>
+         </ul></i></p>
+	 <p><i>Escolha uma imagem de seu gosto e aplique a técnica que você desenvolveu.</i></p>
+	 <p><i>Descreva no seu relatório detalhes do procedimento usado para criar sua técnica pontilhista.</i></p>
 	 
 	***[Solução](#)***
 	<p>Neste exercício foi seguido a sugestão dada de usar a posição dos pixels de borda encontrados pelo algoritmo de Canny para desenhar pontos nos respectivos locais na imagem gerada. A idéia como o próprio problema diz é usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada.<br><br>
