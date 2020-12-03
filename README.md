@@ -390,7 +390,26 @@ Aqui será exposto apenas o resultado, o algoritmo se encontra na sua própria p
       </p>
       
       **OBS:** Para visualizar melhor o resultado abra as imagens em novas guias.
-	
+      
+**9. Quantização vetorial com k-means**
+  - **9.2 Exercício 1**
+      <p align="justify"><i>Utilizando o programa kmeans.cpp como exemplo prepare um programa exemplo onde a execução do código se dê usando o parâmetro nRodadas=1 e inciar os centros de forma aleatória usando o parâmetro KMEANS_RANDOM_CENTERS ao invés de KMEANS_PP_CENTERS. Realize 10 rodadas diferentes do algoritmo e compare as imagens produzidas. Explique porque elas podem diferir tanto.</i></p>
+      
+      ***[Solução](#)***
+      <p>Nesta questão fiz as modificações como recomendadas no problema e basicamente utilizei um loop para realizar as iterações necessárias, não teve nada de muito diferente do código base kmeans.cpp, então não tem nada de tão importante no código para se destacar aqui.<br></p>
+      
+      <p>Abaixo tem um gif para mostrar as imagens resultantes das iterações.<br></p>
+      
+      <p align="center">
+         <img alt="GifResultado" src="https://github.com/JadersonOliveira/Processamento-Digital-de-Imagens/blob/main/9.2%20Exercicio%201/GifResultado.gif">
+        <br>
+          <em>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Gif do resultado&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</em>
+      </p>
+      
+      <p><br>Através da execução do algoritmo, foi possível observar que a saída de todas as iterações apresentou alterações, mas algumas de forma mais clara que outras, por exemplo, as imagens resultantes das iterações 0 e 1 apresentaram alterações bem sutis, já as imagens resultantes  das iterações 2 e 3 apresentaram alterações bem nítidas. Logo, esse comportamente pode ser pelo fato do algoritmo ser repetido apenas 1 vez (nRodadas = 1) como definido no problema ou também por causa do uso do parâmetro KMEANS_RANDOM_CENTERS que define os centros de forma aleatória..</p>
+      
+      **OBS:** Para visualizar as imagens de cada iteração basta acessar a pasta do problema.
+      
 ## Bibliografia 
 * https://agostinhobritojr.github.io/tutorial/pdi/#_pref%C3%A1cio
 * https://agostinhobritojr.github.io/curso/pdi/
